@@ -1,0 +1,9 @@
+### Footprint positions - created on 2025-08-28T14:23:01-0400 ###
+### Printed by KiCad version 9.0.3
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val        Package                         PosX       PosY       Rot  Side
+U1        74AHCT595  SOIC-16_3.9x9.9mm_P1.27mm   100.5000   -46.0000   90.0000  bottom
+U2        74AHCT595  SOIC-16_3.9x9.9mm_P1.27mm   100.5000   -56.0000   90.0000  bottom
+U3        74AHCT595  SOIC-16_3.9x9.9mm_P1.27mm   100.5000   -66.0000   90.0000  bottom
+## End

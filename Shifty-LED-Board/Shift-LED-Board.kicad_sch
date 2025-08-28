@@ -375,6 +375,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED"
 			(pin_numbers
 				(hide yes)
@@ -784,6 +891,14 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 199.39 50.8)
+		(uuid "459316de-e90f-47d0-a014-fe1df3df6557")
+	)
+	(no_connect
+		(at 109.22 54.61)
+		(uuid "6ee1fa69-e6e0-40d2-bc99-31372798ddc3")
+	)
 	(wire
 		(pts
 			(xy 139.7 114.3) (xy 154.94 114.3)
@@ -876,6 +991,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 133.35) (xy 73.66 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e7d5b8-76c0-4503-9f08-62fc2321c7b9")
+	)
+	(wire
+		(pts
 			(xy 162.56 63.5) (xy 165.1 63.5)
 		)
 		(stroke
@@ -883,6 +1008,16 @@
 			(type default)
 		)
 		(uuid "12d9011c-9aef-4e73-bfc1-6fab8fbc50c5")
+	)
+	(wire
+		(pts
+			(xy 31.75 157.48) (xy 31.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14477af9-d5b5-4af5-9b7c-93441e42d458")
 	)
 	(wire
 		(pts
@@ -906,6 +1041,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 138.43) (xy 128.27 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b6a8495-8237-4f5e-9916-6de567f6ff77")
+	)
+	(wire
+		(pts
 			(xy 219.71 53.34) (xy 238.76 53.34)
 		)
 		(stroke
@@ -923,6 +1068,16 @@
 			(type default)
 		)
 		(uuid "1c730d73-36bc-4f8e-8b41-c19ec484efd7")
+	)
+	(wire
+		(pts
+			(xy 27.94 128.27) (xy 26.67 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c741cd4-93c4-4dbe-a35b-03db5b074b35")
 	)
 	(wire
 		(pts
@@ -946,13 +1101,13 @@
 	)
 	(wire
 		(pts
-			(xy 13.97 50.8) (xy 21.59 50.8)
+			(xy 88.9 147.32) (xy 88.9 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "208f607d-6a8a-47cb-b76a-c0e9d4701a66")
+		(uuid "1e34566a-c4c1-42ff-82d9-b8d8f89f99b8")
 	)
 	(wire
 		(pts
@@ -963,6 +1118,16 @@
 			(type default)
 		)
 		(uuid "23377782-01d2-46d5-8fd3-c39e1253ccc1")
+	)
+	(wire
+		(pts
+			(xy 54.61 132.08) (xy 52.07 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "247d8090-7237-409b-bcec-98feecf30416")
 	)
 	(wire
 		(pts
@@ -1026,6 +1191,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 140.97) (xy 54.61 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b4df42-ca26-4086-ba5d-c835f1403e74")
+	)
+	(wire
+		(pts
 			(xy 264.16 101.6) (xy 267.97 101.6)
 		)
 		(stroke
@@ -1053,6 +1228,16 @@
 			(type default)
 		)
 		(uuid "36fd5fe9-61a0-4b47-9bb2-32a2b1c47d32")
+	)
+	(wire
+		(pts
+			(xy 158.75 140.97) (xy 157.48 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3c9a30-7e79-47b9-b61e-40effa72431f")
 	)
 	(wire
 		(pts
@@ -1236,6 +1421,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 101.6) (xy 27.94 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5095745c-c5e3-41fe-bdd7-5caa9bf8cd0f")
+	)
+	(wire
+		(pts
 			(xy 128.27 43.18) (xy 132.08 43.18)
 		)
 		(stroke
@@ -1243,6 +1438,16 @@
 			(type default)
 		)
 		(uuid "559d963e-f6ca-4475-b64b-1a1b01541ddb")
+	)
+	(wire
+		(pts
+			(xy 109.22 137.16) (xy 106.68 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a30e89-e478-4f96-8f84-0f49bf64580f")
 	)
 	(wire
 		(pts
@@ -1336,6 +1541,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 152.4) (xy 208.28 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62f6fcb2-918c-4712-9100-caf202a2709e")
+	)
+	(wire
+		(pts
 			(xy 55.88 101.6) (xy 68.58 101.6)
 		)
 		(stroke
@@ -1366,6 +1581,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 143.51) (xy 132.08 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67a3120f-e286-43dd-a226-21cae9b678dd")
+	)
+	(wire
+		(pts
 			(xy 219.71 45.72) (xy 226.06 45.72)
 		)
 		(stroke
@@ -1383,6 +1608,16 @@
 			(type default)
 		)
 		(uuid "6a1b2eb8-7c12-4679-8cc9-7df62d50a403")
+	)
+	(wire
+		(pts
+			(xy 208.28 152.4) (xy 210.82 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b954e44-6bfb-451a-a04b-21be6f3fd384")
 	)
 	(wire
 		(pts
@@ -1443,6 +1678,16 @@
 			(type default)
 		)
 		(uuid "73cf6cf9-dcbf-4e1f-a1f9-02ac430d57f5")
+	)
+	(wire
+		(pts
+			(xy 158.75 152.4) (xy 158.75 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7755b5e6-2783-4a9d-b57c-8f1a8678a087")
 	)
 	(wire
 		(pts
@@ -1536,13 +1781,13 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 50.8) (xy 107.95 50.8)
+			(xy 67.31 162.56) (xy 67.31 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91b2f457-57c5-4636-a760-0cf762b69149")
+		(uuid "902c8358-bf1d-46d6-b3c5-eb132d16cf04")
 	)
 	(wire
 		(pts
@@ -1623,6 +1868,16 @@
 			(type default)
 		)
 		(uuid "a4e61857-f8e0-45ec-b247-232fe0190ff7")
+	)
+	(wire
+		(pts
+			(xy 29.21 101.6) (xy 27.94 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a56a49e0-a982-4735-8da5-f6546a72df5f")
 	)
 	(wire
 		(pts
@@ -1736,6 +1991,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 140.97) (xy 207.01 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52197a7-3a76-409b-ad62-c4209d1e5f4f")
+	)
+	(wire
+		(pts
 			(xy 144.78 88.9) (xy 154.94 88.9)
 		)
 		(stroke
@@ -1766,6 +2031,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 128.27) (xy 26.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb91c258-2c58-4714-b7e2-75cdf064f5b5")
+	)
+	(wire
+		(pts
 			(xy 231.14 60.96) (xy 219.71 60.96)
 		)
 		(stroke
@@ -1776,6 +2051,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 138.43) (xy 77.47 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc75294f-3d03-450f-a235-1104c73f4d63")
+	)
+	(wire
+		(pts
 			(xy 128.27 45.72) (xy 134.62 45.72)
 		)
 		(stroke
@@ -1783,6 +2068,16 @@
 			(type default)
 		)
 		(uuid "c0521610-cc26-47b5-9653-4040e4bfd408")
+	)
+	(wire
+		(pts
+			(xy 158.75 152.4) (xy 161.29 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c05d6b3b-01d8-446b-983c-624db35db70e")
 	)
 	(wire
 		(pts
@@ -1926,6 +2221,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 146.05) (xy 109.22 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce503d8c-44bc-42a6-b0d2-89f24619cdc2")
+	)
+	(wire
+		(pts
 			(xy 238.76 53.34) (xy 238.76 76.2)
 		)
 		(stroke
@@ -1976,6 +2281,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 146.05) (xy 109.22 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2db1046-22a6-4c1f-ae90-25bc6c318c02")
+	)
+	(wire
+		(pts
 			(xy 172.72 50.8) (xy 176.53 50.8)
 		)
 		(stroke
@@ -1983,6 +2298,16 @@
 			(type default)
 		)
 		(uuid "d42bffcd-65e6-4aae-a503-34948fad0028")
+	)
+	(wire
+		(pts
+			(xy 128.27 143.51) (xy 132.08 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52987e3-5441-45e6-9e44-e6d8f321b7f9")
 	)
 	(wire
 		(pts
@@ -2006,16 +2331,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 50.8) (xy 199.39 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d875077d-e9f8-4c2c-95f4-57f828f38da3")
-	)
-	(wire
-		(pts
 			(xy 41.91 58.42) (xy 55.88 58.42)
 		)
 		(stroke
@@ -2023,6 +2338,16 @@
 			(type default)
 		)
 		(uuid "d9871b82-91a3-4c50-8d32-df38365e481c")
+	)
+	(wire
+		(pts
+			(xy 33.02 157.48) (xy 31.75 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de6ddb73-259c-4c9f-9ac4-e20ef9709b83")
 	)
 	(wire
 		(pts
@@ -2086,6 +2411,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 138.43) (xy 77.47 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e80ae862-98e2-43cb-b613-91173b850145")
+	)
+	(wire
+		(pts
 			(xy 66.04 50.8) (xy 66.04 48.26)
 		)
 		(stroke
@@ -2133,6 +2468,16 @@
 			(type default)
 		)
 		(uuid "efadda79-de75-43a2-a637-14d1a4b2f3ff")
+	)
+	(wire
+		(pts
+			(xy 52.07 140.97) (xy 54.61 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0515d6d-24d3-4eb9-b8c0-82b85a26c27c")
 	)
 	(wire
 		(pts
@@ -2215,6 +2560,16 @@
 		(uuid "ffd03a7a-1826-4ba8-a623-dbcf47907f08")
 	)
 	(label "OE"
+		(at 33.02 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "012e2283-cc88-4092-a075-9bad93bdb6e7")
+	)
+	(label "OE"
 		(at 190.5 58.42 0)
 		(effects
 			(font
@@ -2244,15 +2599,45 @@
 		)
 		(uuid "0fdc845a-3b6d-41db-9c19-4658df9f4041")
 	)
-	(label "SR_CLR"
-		(at 13.97 50.8 0)
+	(label "SR_CLK"
+		(at 106.68 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "14c0684a-909f-4ad8-9f81-2d32b3777ccb")
+		(uuid "10af0925-46f7-455f-8368-33dcd546c5ba")
+	)
+	(label "5V"
+		(at 161.29 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "14bac9a2-dbe6-41c2-9139-918b43bfedc5")
+	)
+	(label "SER_IN"
+		(at 88.9 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17ed6515-b98b-4dd6-b06d-a363f03111e6")
+	)
+	(label "OE"
+		(at 27.94 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f30550b-6e3c-4a1c-be70-8dd72fcfd025")
 	)
 	(label "SER2"
 		(at 101.6 43.18 0)
@@ -2274,15 +2659,15 @@
 		)
 		(uuid "32863c0c-7d07-4a8c-85be-2bdde1ecb99c")
 	)
-	(label "SR_CLR"
-		(at 190.5 50.8 0)
+	(label "SR_CLK"
+		(at 52.07 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3e404954-ee15-449b-b4a1-df9fb6f34eae")
+		(uuid "472e7512-6191-4a4d-a18e-3c310a01311d")
 	)
 	(label "5V"
 		(at 118.11 33.02 0)
@@ -2293,6 +2678,16 @@
 			(justify left bottom)
 		)
 		(uuid "521f3dcb-342a-46ca-8002-6c4e3a86adaa")
+	)
+	(label "SER_OUT"
+		(at 67.31 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fb48265-378c-407d-b1f7-e31d2ac0661e")
 	)
 	(label "SER3"
 		(at 130.81 66.04 0)
@@ -2354,6 +2749,16 @@
 		)
 		(uuid "7e29389c-4db4-40e2-9340-69a693305d43")
 	)
+	(label "5V"
+		(at 210.82 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "845e773f-6b40-490a-9f42-8e08158c2e33")
+	)
 	(label "SR_CLK"
 		(at 13.97 48.26 0)
 		(effects
@@ -2363,6 +2768,36 @@
 			(justify left bottom)
 		)
 		(uuid "896f90e7-8d88-48ae-a73f-82ab0d30776f")
+	)
+	(label "RC_CLK"
+		(at 73.66 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "904da463-c7d3-4df5-b4c9-e52502f62adf")
+	)
+	(label "5V"
+		(at 27.94 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a26f9ba6-ef9c-4ae3-8bd8-31fa2ad9f69d")
+	)
+	(label "5V"
+		(at 31.75 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a3de913b-caff-42de-ae53-0a196e483ad1")
 	)
 	(label "SR_CLK"
 		(at 101.6 48.26 0)
@@ -2374,6 +2809,16 @@
 		)
 		(uuid "afdc2e26-0ab0-4655-b4dd-f7c446453bfd")
 	)
+	(label "5V"
+		(at 26.67 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b79ac063-8add-4daa-b920-527573aae352")
+	)
 	(label "OE"
 		(at 101.6 58.42 0)
 		(effects
@@ -2383,6 +2828,16 @@
 			(justify left bottom)
 		)
 		(uuid "bdedd47a-b871-4842-b068-3f1735205f81")
+	)
+	(label "OE"
+		(at 29.21 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be55939a-a74c-45a5-8a09-638c3f490c66")
 	)
 	(label "SER2"
 		(at 43.18 66.04 0)
@@ -2394,15 +2849,15 @@
 		)
 		(uuid "c9a5790c-bf7c-488e-bc7f-d4b8b3b5448e")
 	)
-	(label "SR_CLR"
-		(at 101.6 50.8 0)
+	(label "RC_CLK"
+		(at 128.27 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d0724cd2-6ca9-4891-94b8-8a3a4aca04d5")
+		(uuid "d20e82a6-ba23-4b24-aa3b-5c4aa4ba2fe3")
 	)
 	(label "SER_OUT"
 		(at 212.09 88.9 0)
@@ -2486,6 +2941,73 @@
 			(project "Shift-LED-Board"
 				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 128.27 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03073236-ab63-495b-8858-7b8d6258269c")
+		(property "Reference" "TP3"
+			(at 130.81 133.8579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 130.81 136.3979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 133.35 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 128.27 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f1aede43-9694-4b2e-a3a7-363ef174b307")
+		)
+		(instances
+			(project "Shift-LED-Board"
+				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -3204,6 +3726,210 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 207.01 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23bd4297-d28f-4aef-88fa-c8aca62aa939")
+		(property "Reference" "TP6"
+			(at 209.55 136.3979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 209.55 138.9379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 212.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 207.01 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41d91f5b-1d35-458a-a755-3d45a8f61de4")
+		)
+		(instances
+			(project "Shift-LED-Board"
+				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 26.67 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25002415-9113-4be6-af89-a8a96a0d4ac7")
+		(property "Reference" "R26"
+			(at 29.21 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 29.21 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 24.892 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 26.67 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aed33161-35ab-4b2d-870a-bcff4ac938f2")
+		)
+		(pin "1"
+			(uuid "6731041c-4ec2-4ff1-975f-4b6239778735")
+		)
+		(instances
+			(project "Shift-LED-Board"
+				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 106.68 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2587222a-c851-418e-a66a-af1bb95fd49b")
+		(property "Reference" "TP2"
+			(at 109.22 132.5879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 109.22 135.1279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 111.76 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 106.68 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01a04ab4-fde7-499f-a35b-930a0212f5c9")
+		)
+		(instances
+			(project "Shift-LED-Board"
+				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 267.97 63.5 90)
 		(unit 1)
@@ -3377,6 +4103,73 @@
 			(project "Shift-LED-Board"
 				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 67.31 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3128b2cd-4bab-469f-b762-5da26d452c57")
+		(property "Reference" "TP10"
+			(at 69.85 149.0979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 69.85 151.6379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 72.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 67.31 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2f27f95-b635-46ee-adf8-ee68359febc7")
+		)
+		(instances
+			(project "Shift-LED-Board"
+				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -4011,6 +4804,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 227.33 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44018266-0a07-4dd6-b5d4-2203272ab71f")
+		(property "Reference" "#PWR029"
+			(at 233.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1d81381-ca61-4fe1-a330-4ad450245bdc")
+		)
+		(instances
+			(project "Shift-LED-Board"
+				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 72.39 38.1 90)
 		(unit 1)
@@ -4073,6 +4933,73 @@
 			(project "Shift-LED-Board"
 				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49e5294e-da82-4486-9269-e7ba69c7c638")
+		(property "Reference" "#PWR028"
+			(at 184.15 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 181.61 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33870979-edff-440b-91ac-56a61fc9826f")
+		)
+		(instances
+			(project "Shift-LED-Board"
+				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4913,6 +5840,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 31.75 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60925ebf-8a87-4ae1-8b94-8ce9b219e8eb")
+		(property "Reference" "R27"
+			(at 34.29 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 34.29 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 29.972 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 31.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "62b50749-4e4b-44db-8184-b5baa9fa227d")
+		)
+		(pin "1"
+			(uuid "cf9dc54c-27f9-4f49-aeae-a93176f9a496")
+		)
+		(instances
+			(project "Shift-LED-Board"
+				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 176.53 88.9 90)
 		(unit 1)
@@ -5540,6 +6537,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 227.33 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "741c6708-7eb6-4261-a0e8-f1113d74b15e")
+		(property "Reference" "TP7"
+			(at 229.87 140.2079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 229.87 142.7479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 227.33 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f306a9ce-aef4-41ad-8866-81ca7c06c414")
+		)
+		(instances
+			(project "Shift-LED-Board"
+				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 82.55 25.4 180)
 		(unit 1)
@@ -5611,6 +6675,73 @@
 			(project "Shift-LED-Board"
 				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 177.8 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86df68fb-15f7-4ab2-9afe-5ecdfa2d6c68")
+		(property "Reference" "TP5"
+			(at 180.34 140.2079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 180.34 142.7479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 182.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 177.8 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11dc5f69-c0cb-4ebc-80a8-b25d3b31db26")
+		)
+		(instances
+			(project "Shift-LED-Board"
+				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -5967,6 +7098,76 @@
 			(project "Shift-LED-Board"
 				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 27.94 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e420ad9-3a22-4725-8bf3-fbcb4f7c9c57")
+		(property "Reference" "R25"
+			(at 30.48 92.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 30.48 95.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 26.162 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 27.94 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8b86aae-d1fc-490f-8367-ae7d4a58a068")
+		)
+		(pin "1"
+			(uuid "22032a80-6c66-4952-92dc-76a9158ced16")
+		)
+		(instances
+			(project ""
+				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -6366,6 +7567,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.9 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af17d7c9-29bb-4545-a2b0-d4ba9318365f")
+		(property "Reference" "TP1"
+			(at 91.44 133.8579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 91.44 136.3979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6862e2e-0f1c-49dc-b509-b104de5c968f")
+		)
+		(instances
+			(project ""
+				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b45b0373-8390-4455-9a21-99d1506c601b")
+		(property "Reference" "TP8"
+			(at 54.61 127.5079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 54.61 130.0479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 57.15 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "774550b3-1413-45d4-9b17-b919142e52ad")
+		)
+		(instances
+			(project "Shift-LED-Board"
+				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 260.35 50.8 180)
 		(unit 1)
@@ -6684,6 +8019,73 @@
 			(project "Shift-LED-Board"
 				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c48be2a1-af00-40a2-9993-1f8e155c1335")
+		(property "Reference" "TP9"
+			(at 76.2 128.7779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 76.2 131.3179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 78.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d4f25af-b4f7-4222-9762-7a6d4984da29")
+		)
+		(instances
+			(project "Shift-LED-Board"
+				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -7829,6 +9231,73 @@
 			(project "Shift-LED-Board"
 				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
 					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef61ac9e-a70e-4b73-b801-c41092f9af1b")
+		(property "Reference" "TP4"
+			(at 160.02 136.3979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 160.02 138.9379 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 162.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55da7ee3-5884-47db-8e44-35d6ad38d890")
+		)
+		(instances
+			(project "Shift-LED-Board"
+				(path "/a3445e56-cf18-4ecd-a561-34fdfd394230"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
