@@ -1290,19 +1290,6 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C23350"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e6ee2f40-c634-4ad4-82a2-b789b48eaf8b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/604e4ed2-ee76-446b-b577-6e519e5efc7c")
 		(sheetname "/")
@@ -3999,19 +3986,6 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C23350"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7fa8515e-7b7e-4846-9e46-d43e3d29a4d8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/a7b0cf6e-c6ec-43dc-893a-9d69b329721f")
 		(sheetname "/")
@@ -6486,19 +6460,6 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C34499"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0528d299-4f23-42bf-b68b-3a957e51e6b0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/18927fae-cde8-46e9-bfb8-77708c5359ae")
 		(sheetname "/")
@@ -6962,19 +6923,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2bf4d9c3-9850-43b0-81ba-0fb6120a4114")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part #" "C34499"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fbb10d90-a5da-4c48-86d0-49a30d1facc1")
 			(effects
 				(font
 					(size 1 1)
@@ -8905,19 +8853,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part #" "C23350"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "568a394b-249e-4a58-af98-1a356fe83423")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -12751,19 +12686,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "843e31f5-5af8-4eb5-8248-f821e3198fc4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC Part #" "C34499"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0a245b16-a6f9-4336-bf78-f0f606edbd2f")
 			(effects
 				(font
 					(size 1 1)
