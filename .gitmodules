@@ -1,0 +1,6 @@
+[submodule "libraries"]
+	path = libraries
+	url = git@github.com:chusovich/KiCad-Libraries.git
+[submodule "Shifty-LED-Driver/libraries"]
+	path = Shifty-LED-Driver/libraries
+	url = git@github.com:chusovich/KiCad-Libraries.git
